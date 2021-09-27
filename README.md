@@ -2,6 +2,10 @@
 
 The initial structure and workflows essential for any NodeJS project.
 
+**Remember to change the git config details in the workflows and fill in the placeholders for `<owner>`, `<owner_name>`, `<repo_name>`, etc. in the respective files.** 
+
+**The linter for Markdown has been disabled in this template. To enable it go to the `super-linter.yml` in the workflows directory and remove the line `VALIDATE_MARKDOWN: false`. To run the linter only on the changed files instead of the entire repository change `VALIDATE_ALL_CODEBASE` to either `true` or `false` depending on your requirement.**
+
 # Remember: Semantic Commit Messages
 
 See how a minor change to your commit message style can make you a better programmer.
