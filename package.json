@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-template",
+  "version": "1.0.0",
+  "description": "The initial structure and workflows essential for any NodeJS project",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/<owner>/<repo_name>.git"
+  },
+  "author": "<owner_name>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/<owner>/<repo_name>/issues"
+  },
+  "homepage": "https://github.com/<owner>/<repo_name>#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongodb": "^4.1.2",
+    "standard": "^16.0.3"
+  }
+}
